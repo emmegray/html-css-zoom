@@ -1,0 +1,22 @@
+/* HEADER */
+
+header {
+  height: 100px;
+  display: flex;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+}
+
+main img {
+  max-height: 150px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+}
