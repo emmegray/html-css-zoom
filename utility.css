@@ -1,10 +1,26 @@
-* {
-    margin: 0 auto;
+body {
     padding: 0;
+    margin: 0 auto;
+}
+
+* {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 
     /* Border and background to check the layout */
-    border: 1px solid red;
-    background-color: gray;
+    /* border: 1px solid red; */
+}
+
+.size10 {
+    font-size: 10px;
+}
+
+.green {
+    color: green;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border: 0;
 }
