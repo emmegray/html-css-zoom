@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 
-    /* Border to check the layout */
+    /* Border and background to check the layout */
     border: 1px solid red;
+    background-color: gray;
 }

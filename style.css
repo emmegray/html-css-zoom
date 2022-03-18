@@ -9,10 +9,27 @@ header {
 
 main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-main img {
-  max-height: 150px;
+main .user {
+  min-height: 150px;
+  min-width: 265px;
+  max-width: calc(100% / 7);
+  position: relative;
+  margin: 10px 5px;
+}
+
+main .user img {
+  max-width: 100%;
+  height: auto;
+}
+
+main .user .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* FOOTER */
